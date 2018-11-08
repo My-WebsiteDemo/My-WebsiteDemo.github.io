@@ -114,12 +114,15 @@ jQuery(document).ready(function( $ ) {
 
   // Init Owl Carousel
   $('.owl-carousel').owlCarousel({
-    items: 4,
-    autoplay: true,
+    items: 5,
     loop: true,
-    margin: 30,
-    dots: true,
-    responsiveClass: true,
+    margin: 50,
+    autoplay: true,
+    slideTransition: 'linear',
+    autoplayTimeout: 1000,
+    autoplaySpeed: 3000,
+    autoplayHoverPause: false,
+  
     responsive: {
 
       320: { items: 1},
